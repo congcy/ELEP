@@ -37,7 +37,7 @@
 
 ## Features
 
-![workflow](/images/ELEP_framework.jpg)
+![workflow](/images/ELEP_framework.png)
 
 This template contains the following:
 
