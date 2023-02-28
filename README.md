@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/congcy/ELEP">
-    <img src="Images/ELEP_logo.png" alt="Logo" width="100" height="80">
+    <img src="images/ELEP_logo.png" alt="Logo" width="100" height="80">
   </a>
   <h3 align="center">ELEP</h3>
 </div>
