@@ -18,7 +18,7 @@
     <a href="https://github.com/congcy/ELEP/tree/main/ssec_project/tests" alt="Test">
         <img src="https://github.com/uw-ssec/python-project-template/actions/workflows/test.yaml/badge.svg" /></a>
     <br />
-    <a href="https://readthedocs.org/projects/ssec-python-project-template/badge/?version=latest">Tutorials</a>
+    <a href="https://ssec-python-project-template.readthedocs.io/en/latest/?badge=latest">Tutorials</a>
     .
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
