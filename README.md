@@ -29,6 +29,12 @@
 
 ## Prerequisites
 
+* create a new environment using [conda](https://www.anaconda.com/) 
+  ```python
+  >>>
+  conda create --name myenv
+  ```
+
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
 
 ## Installation 
@@ -39,14 +45,12 @@
 
 ![workflow](/images/ELEP_framework.png)
 
-This toolkit contains the following:
+This toolkit contains the following features:
 
 1. It provides broadband and multiband prediction workflows.
 2. It provides three ensemble estimation or combination approaches.
 3. It provides GPU-supported batch predictions on avilable datasets.
 4. It supports parallel predictions for real-time monitoring.
-
-See [choose a license](https://choosealicense.com/) for more licenses.
 
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
 
