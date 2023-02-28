@@ -29,7 +29,7 @@
 
 ## Prerequisites
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
 
 ## Installation 
 
@@ -53,4 +53,4 @@ See [choose a license](https://choosealicense.com/) for more licenses.
 
 ## Contact
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
