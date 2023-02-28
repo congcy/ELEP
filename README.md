@@ -15,8 +15,6 @@
     <br />
     <a ![BSD License](https://badgen.net/badge/license/BSD-3-Clause/blue)>
     </a>
-    
-    <br />
   </p>
 </div>
 
