@@ -15,7 +15,7 @@
         <img src="https://badgen.net/badge/license/BSD-3-Clause/blue" /></a>
     <a href="https://github.com/congcy/ELEP/tree/main/docs" alt="Documentation Status">
         <img src="https://readthedocs.org/projects/ssec-python-project-template/badge/?version=latest" /></a>
-    <a href="https://github.com/congcy/ELEP/tree/main/ssec_project/tests" alt="Test">
+    <a href="https://github.com/congcy/ELEP/tree/main/.github/workflows" alt="Test">
         <img src="https://github.com/uw-ssec/python-project-template/actions/workflows/test.yaml/badge.svg" /></a>
     <br />
     <a href="https://ssec-python-project-template.readthedocs.io/en/latest/?badge=latest">Tutorials</a>
@@ -33,6 +33,8 @@
 
 ## Installation 
 
+<p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
+
 ## Features
 
 This template contains the following:
@@ -47,9 +49,15 @@ See [choose a license](https://choosealicense.com/) for more licenses.
 6. [Pre-commit](https://pre-commit.com/) config to enable code style checks before committing.
 7. [Read The Docs](https://readthedocs.org/) config to enable free hosting of documentation.
 
+<p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
+
 ## Demo
 
+<p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
+
 ## Citation 
+
+<p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
 
 ## Contact
 
