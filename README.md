@@ -29,10 +29,17 @@
 
 ## Prerequisites
 
-* create a new environment using [conda](https://www.anaconda.com/) 
+* create a new environment using [Anaconda](https://www.anaconda.com/) 
   ```python
-  >>>
-  conda create --name myenv
+  >>> conda create --name myenv
+  ```
+* install [Seisbench](https://github.com/seisbench/seisbench)
+  ```python
+  >>> pip install seisbench
+  ```
+* install other packages
+  ```python
+  >>> pip install numpy scipy pandas obspy h5py mpi4py matplotlib
   ```
 
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
