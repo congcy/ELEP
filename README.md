@@ -1,6 +1,6 @@
 # ELEP
 
-<!-- PROJECT LOGO -->
+<!-- PROJECT LOGO & STATUS -->
 <br />
 <div align="center">
   <a href="https://github.com/congcy/ELEP">
@@ -8,7 +8,7 @@
   </a>
   <h3 align="center">ELEP</h3>
   <p align="center">
-    A ensemble-learning based toolkit for seismologists to make the best decision by combining multiple predictions into the one. 
+    A ensemble-learning based toolkit for seismologists to make the best pick on earthquake phases by combining multiple predictions into the one. 
     <br />
     <br />
     <a href="https://github.com/congcy/ELEP/blob/main/LICENSE" alt="Liscence">
