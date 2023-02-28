@@ -27,7 +27,7 @@
 </div>
 
 
-## Prerequisites
+## Prerequisites & installations
 
 * create a new environment using [Anaconda](https://www.anaconda.com/) 
   ```python
@@ -41,10 +41,10 @@
   ```python
   >>> pip install numpy scipy pandas obspy h5py mpi4py matplotlib
   ```
-
-<p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
-
-## Installation 
+* install our toolkit (under development)
+  ```python
+  >>> pip install ELEP
+  ```
 
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
 
