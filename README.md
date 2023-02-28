@@ -1,10 +1,4 @@
 # ELEP
-![BSD License](https://badgen.net/badge/license/BSD-3-Clause/blue)
-[![Documentation Status](https://readthedocs.org/projects/ssec-python-project-template/badge/?version=latest)](https://ssec-python-project-template.readthedocs.io/en/latest/?badge=latest)
-[![Test](https://github.com/uw-ssec/python-project-template/actions/workflows/test.yaml/badge.svg)](https://github.com/uw-ssec/python-project-template/actions/workflows/test.yaml)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/uw-ssec/python-project-template/main.svg)](https://results.pre-commit.ci/latest/github/uw-ssec/python-project-template/main)
-[![Issues][issues-shield]][https://github.com/congcy/ELEP/issues]
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -17,9 +11,15 @@
     A ensemble-learning based toolkit for seismologists to make the best decision by combining multiple predictions into the one. 
     <br />
     <br />
-    <a href="https://github.com/congcy/ELEP/graphs/contributors" alt="Contributors">
-        <img src="https://github.com/congcy/ELEP/graphs/contributors/badges/shields" /></a>
+    <a href="https://github.com/congcy/ELEP/blob/main/LICENSE" alt="Liscence">
+        <img src="https://badgen.net/badge/license/BSD-3-Clause/blue" /></a>
+    <a href="https://github.com/congcy/ELEP/blob/main/LICENSE" alt="Documentation Status">
+        <img src="https://readthedocs.org/projects/ssec-python-project-template/badge/?version=latest" /></a>
+    <a href="https://github.com/othneildrew/Best-README-Template/issues" alt="Test">
+        <img src="https://github.com/congcy/ELEP/tree/main/ssec_project/tests" /></a>
 
+    <a href="https://github.com/congcy/ELEP/tree/main/docs">Tutorial</a>
+    .
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
