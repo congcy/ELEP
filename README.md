@@ -1,16 +1,24 @@
-# python-project-template
+# ELEP
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/congcy/ELEP">
+    <img src="Images/ELEP_logo.png" alt="Logo" width="100" height="80">
+  </a>
+  <h3 align="center">ELEP</h3>
+</div>
 
-<span><img src="https://img.shields.io/badge/SSEC-Project-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic" /><span>
 ![BSD License](https://badgen.net/badge/license/BSD-3-Clause/blue)
 [![Documentation Status](https://readthedocs.org/projects/ssec-python-project-template/badge/?version=latest)](https://ssec-python-project-template.readthedocs.io/en/latest/?badge=latest)
 [![Test](https://github.com/uw-ssec/python-project-template/actions/workflows/test.yaml/badge.svg)](https://github.com/uw-ssec/python-project-template/actions/workflows/test.yaml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/uw-ssec/python-project-template/main.svg)](https://results.pre-commit.ci/latest/github/uw-ssec/python-project-template/main)
 
-Python project repository template for developing python package.
+A ensemble-learning based toolkit for earthquake phase detection and picking. It helps seismologists to make the best decision by combining multiple predictions into the one. 
 
-This repository contains a template for developing a python project. To start, click on the green [Use this template](https://github.com/uw-ssec/python-project-template/generate) in the top right. This will allow you to create a new project using this base template.
 
-## What's included
+## Installation 
+
+## Features
 
 This template contains the following:
 
@@ -24,11 +32,7 @@ See [choose a license](https://choosealicense.com/) for more licenses.
 6. [Pre-commit](https://pre-commit.com/) config to enable code style checks before committing.
 7. [Read The Docs](https://readthedocs.org/) config to enable free hosting of documentation.
 
-## Open source licensing
+## Demo
 
-Statement from Schmidt Futures:
+## Citation 
 
-*Schmidt Futures expects that any code from projects funded by Schmidt Futures be released as open source under an [OSI](https://opensource.org/licenses)-approved permissive license (such as [Apache v2.0](https://choosealicense.com/licenses/apache-2.0/) or [MIT](https://choosealicense.com/licenses/mit/)).
-We recommend that projects avoid using GPL due to known complexities associated with it.
-We encourage projects to publish data used for peer-reviewed scientific articles along with the code used to produce the results.
-Additionally, we recommend avoiding any license modifications for simplicity, and alignment with standard practices.*
