@@ -39,11 +39,13 @@
 
 ![workflow](/images/ELEP_framework.png)
 
-This template contains the following:
+This toolkit contains the following:
 
-1. Python package setup files for building python package to a distribution.
-See [PyPA packaging user guide](https://packaging.python.org/en/latest/) for more info.
-2. Basic license file (currently BSD 3-Clause License, but can be modified to specific project).
+1. It provides broadband and multiband prediction workflows.
+2. It provides three ensemble estimation or combination approaches.
+3. It provides GPU-supported batch predictions on avilable datasets.
+4. It supports parallel predictions for real-time monitoring.
+
 See [choose a license](https://choosealicense.com/) for more licenses.
 
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
