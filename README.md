@@ -1,4 +1,9 @@
 # ELEP
+![BSD License](https://badgen.net/badge/license/BSD-3-Clause/blue)
+[![Documentation Status](https://readthedocs.org/projects/ssec-python-project-template/badge/?version=latest)](https://ssec-python-project-template.readthedocs.io/en/latest/?badge=latest)
+[![Test](https://github.com/uw-ssec/python-project-template/actions/workflows/test.yaml/badge.svg)](https://github.com/uw-ssec/python-project-template/actions/workflows/test.yaml)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/uw-ssec/python-project-template/main.svg)](https://results.pre-commit.ci/latest/github/uw-ssec/python-project-template/main)
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -6,14 +11,12 @@
     <img src="images/ELEP_logo.png" alt="Logo" width="100" height="80">
   </a>
   <h3 align="center">ELEP</h3>
+  <p align="center">
+  A ensemble-learning based toolkit for seismologists to make the best decision by combining multiple predictions into the one. 
+  </p>
 </div>
 
-![BSD License](https://badgen.net/badge/license/BSD-3-Clause/blue)
-[![Documentation Status](https://readthedocs.org/projects/ssec-python-project-template/badge/?version=latest)](https://ssec-python-project-template.readthedocs.io/en/latest/?badge=latest)
-[![Test](https://github.com/uw-ssec/python-project-template/actions/workflows/test.yaml/badge.svg)](https://github.com/uw-ssec/python-project-template/actions/workflows/test.yaml)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/uw-ssec/python-project-template/main.svg)](https://results.pre-commit.ci/latest/github/uw-ssec/python-project-template/main)
 
-A ensemble-learning based toolkit for earthquake phase detection and picking. It helps seismologists to make the best decision by combining multiple predictions into the one. 
 
 
 ## Installation 
