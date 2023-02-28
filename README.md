@@ -18,7 +18,7 @@
     <br />
     <br />
     <a href="https://github.com/congcy/ELEP/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/badges/shields" /></a>
+        <img src="https://github.com/congcy/ELEP/graphs/contributors/badges/shields" /></a>
 
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
