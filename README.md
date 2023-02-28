@@ -15,9 +15,9 @@
         <img src="https://badgen.net/badge/license/BSD-3-Clause/blue" /></a>
     <a href="https://github.com/congcy/ELEP/blob/main/LICENSE" alt="Documentation Status">
         <img src="https://readthedocs.org/projects/ssec-python-project-template/badge/?version=latest" /></a>
-    <a href="https://github.com/othneildrew/Best-README-Template/issues" alt="Test">
-        <img src="https://github.com/congcy/ELEP/tree/main/ssec_project/tests" /></a>
-
+    <a href="https://github.com/congcy/ELEP/tree/main/ssec_project/tests" alt="Test">
+        <img src="https://github.com/uw-ssec/python-project-template/actions/workflows/test.yaml/badge.svg" /></a>
+    <br />
     <a href="https://github.com/congcy/ELEP/tree/main/docs">Tutorial</a>
     .
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
