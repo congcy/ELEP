@@ -9,4 +9,51 @@ build-backend = 'setuptools.build_meta'
 [tool.setuptools_scm]
 fallback_version = "unknown"
 local_scheme = "node-and-date"
-write_to = "ssec_project/version.py"
+write_to = "tests/version.py"
+
+[project]
+name = "elep"
+dynamic = ["version"]
+description = "Ensemble Learning for Earthquake Picking"
+readme = "README.md"
+license = {text = "GPLv3"}
+requires-python = ">=3.7"
+authors = [
+    {name = "Congcong Yuan", email = "cyuan@g.harvard.edu"},
+]
+maintainers = [
+    {name = "Congcong Yuan", email = "cyuan@g.harvard.edu"},
+    {name = "Yiyu Ni", email = "niyiyu@uw.edu"}
+]
+keywords = ["seismology", "machine learning", "ensemble learning", "seismic signal processing"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Programming Language :: Python :: 3.7",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+]
+dependencies = [
+    "numpy>=1.21.6",
+    "pandas>=1.1",
+    "h5py>=3.1",
+    "obspy>=1.2",
+    "tqdm>=4.52",
+    "torch>=1.10.0",
+    "scipy>=1.5",
+    "nest_asyncio>=1.5.3"
+]
+
+[tool.setuptools.packages.find]
+include = ["ELEP*"]
+
+[project.optional-dependencies]
+development = ["flake8", "black", "isort", "pre-commit"]
+tests = ["pytest", "pytest-asyncio"]
+
+[tool.setuptools_scm]
+
+[project.urls]
+GitHub = "https://github.com/congcy/ELEP"
+Documentation = "https://ssec-python-project-template.readthedocs.io/en/latest"
+Issues = "https://github.com/othneildrew/Best-README-Template/issues"
