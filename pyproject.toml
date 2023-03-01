@@ -4,15 +4,9 @@ requires = [
     "setuptools_scm >= 7.0.0",
     "wheel >= 0.38.4",
 ]
-build-backend = 'setuptools.build_meta'
-
-[tool.setuptools_scm]
-fallback_version = "unknown"
-local_scheme = "node-and-date"
-write_to = "tests/version.py"
 
 [project]
-name = "elep"
+name = "ELEP"
 dynamic = ["version"]
 description = "Ensemble Learning for Earthquake Picking"
 readme = "README.md"
