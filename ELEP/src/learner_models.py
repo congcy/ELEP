@@ -52,4 +52,3 @@ class ensemble_regressor_cnn(nn.Module):
         x = self.fc3(x)
 
         return self.activation2(x)
-
