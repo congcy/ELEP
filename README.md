@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/congcy/ELEP">
-    <img src="images/ELEP_logo.png" alt="Logo" width="100" height="80">
+    <img src="docs/images/ELEP_logo.png" alt="Logo" width="100" height="80">
   </a>
   <h3 align="center">ELEP</h3>
   <p align="center">
@@ -50,7 +50,7 @@
 
 ## Features
 
-![workflow](/images/ELEP_framework.png)
+![workflow](/docs/images/ELEP_framework.png)
 
 This toolkit contains the following features:
 
