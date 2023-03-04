@@ -58,7 +58,7 @@ This toolkit contains the following features:
 2. It provides three ensemble estimation or combination approaches.
 3. It provides GPU-supported batch predictions on avilable datasets.
 4. It supports parallel predictions for real-time earthquake monitoring.
-5. It possess a good generalization capability
+5. It possess a good generalization capability.
 
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
 
