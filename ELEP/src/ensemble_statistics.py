@@ -1,3 +1,5 @@
+import numpy as np
+
 def ensemble_statistics(signals, paras):
     '''
     Simple methods for ensemble estimation.
