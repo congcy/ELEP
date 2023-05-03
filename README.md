@@ -63,13 +63,13 @@ This toolkit contains the following features:
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
 
 ## Demo
-
+Please see the notebooks under the folder `tutorials` for more details.
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
 
 ## Citation 
-
+Yuan, C., Ni, Y., Lin, Y., Denolle, M., Ensemble Learning for Earthquake Detection and Phase Picking, 2023, in preparation.
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
 
 ## Contact
-
+Congcong Yuan - cyuan@g.harvard.edu
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
