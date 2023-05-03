@@ -116,6 +116,7 @@ def create_obspy_trace(trace_dict):
                 ifb = trace_dict['frequency_band_index']
                 fb = trace_dict['frequency_band']
                 trace[ic].stats.location = 'fb'+str('%02d'%ifb) #+str('%.2f'%fb[0])+'_'+str('%.2f'%fb[1])+'Hz'
+                
         trace[ic].stats.channel = trace_dict['channel']+trace_dict['components'][ic]
         trace[ic].stats.starttime = trace_dict['starttime']
         # trace[ic].stats.endtime = trace_dict['endtime']
