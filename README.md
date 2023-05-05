@@ -39,7 +39,7 @@
   ```
 * install other packages
   ```python
-  >>> pip install numpy scipy pandas obspy h5py mpi4py matplotlib
+  >>> pip install jupyter mpi4py
   ```
 * install our toolkit (under development)
   ```python

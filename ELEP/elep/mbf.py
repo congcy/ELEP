@@ -9,11 +9,34 @@ refer to https://github.com/BackTrackBB/backtrackbb/blob/master/backtrackbb
 """
 import numpy as np
 import scipy.ndimage as nd
-from mbf_utils import _gausscoeff
 import time
 from obspy.signal.invsim import cosine_taper
 
 # --------------------- filtering ------------------------
+def _gausscoeff(sigma, A, B):
+    '''implementation of the algorithm by Young&Vliet, 1995'''
+    if sigma > 0.5:
+        q = 0.98711*sigma - 0.96330
+    elif sigma == 0.5:
+        q = 3.97156 - 4.14554 * np.sqrt(1.0 - 0.26891*sigma)
+    else:
+        raise ValueError("Sigma for Gaussian filter must be >=0.5 samples.\n")
+
+    b = np.zeros(4)
+    b[0] = 1.57825 + 2.44413*q + 1.4281*pow(q, 2) + 0.422205*pow(q, 3)
+    b[1] = 2.44413*q + 2.85619*pow(q, 2) + 1.26661*pow(q, 3)
+    b[2] = -(1.4281*pow(q, 2) + 1.26661*pow(q, 3))
+    b[3] = 0.422205*pow(q, 3)
+
+    B[0] = 1.0 - ((b[1] + b[2] + b[3])/b[0])
+
+    A[0] = 1
+    for i in range(1,4):
+        A[i] = -b[i]/b[0]   
+    nA, nB = 4, 1
+    
+    return A, nA, B, nB
+
 def _recursive_filter(signal, C_HP, C_LP, npoles=2):
     '''Bandpass (or highpass) filtering by cascade of simple, first-order recursive highpass and lowpass filters. 
     The number of poles gives the number of filter stages.'''
