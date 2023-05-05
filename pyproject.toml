@@ -7,12 +7,12 @@ requires = [
 
 [project]
 name = "ELEP"
-# dynamic = ["version"]
+# dynamic = ["version"] # comment this to avoid versioning
 description = "Ensemble Learning for Earthquake Processing"
 readme = "README.md"
 license = {text = "GPLv3"}
 requires-python = ">=3.8"
-version = "0.0.2"
+version = "0.0.2" # add version here
 authors = [
     {name = "Congcong Yuan", email = "cyuan@g.harvard.edu"},
 ]
