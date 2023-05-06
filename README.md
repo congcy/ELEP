@@ -43,7 +43,7 @@
   ```
 * install our toolkit (under development)
   ```python
-  >>> pip install ELEP
+  >>> pip install ELEP==0.0.2
   ```
 
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
