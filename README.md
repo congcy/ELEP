@@ -8,7 +8,7 @@
   </a>
   <h3 align="center">ELEP</h3>
   <p align="center">
-    A ensemble-learning based toolkit for seismologists to make the best pick on earthquake phases by combining multiple predictions into the one. 
+    An ensemble-learning based toolkit for seismologists to make the best pick on earthquake phases by combining multiple predictions into the one. 
     <br />
     <br />
     <a href="https://github.com/congcy/ELEP/blob/main/LICENSE" alt="Liscence">
