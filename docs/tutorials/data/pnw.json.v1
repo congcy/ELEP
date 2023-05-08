@@ -1,0 +1,14 @@
+{
+  "docstring": "Original EQTransformer model from Mousavi et al. (2020). Originally published under MIT License. Original available at https://github.com/smousavi05/EQTransformer/blob/906075feb8aaa61030ed6de1b02a6f749ef103a0/ModelsAndSampleData/EqT_model.h5 . \n\nConverted to SeisBench by Jannes Münchmeyer (munchmej@gfz-potsdam.de)",
+  "model_args": {
+	"filter_args": ["bandpass"],
+        "filter_kwargs": {
+                "freqmin": 1,
+                "freqmax": 45,
+                "corners": 2,
+                "zerophase": true
+        },
+	"phases": "PS",
+	"component_order": "ZNE"
+  }
+}
