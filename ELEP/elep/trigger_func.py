@@ -2,7 +2,7 @@ import numpy as np
 from obspy.signal.trigger import trigger_onset
 
 def detection_summary_simple(data, thrd=0.1):
-    # exclude the first 5 seconds to avoid artifacts
+    # exclude the first 3 seconds to avoid artifacts
     data[:300] = 0.
 
     triggers = trigger_onset(data, thrd, thrd / 2)
@@ -14,7 +14,7 @@ def detection_summary_simple(data, thrd=0.1):
     return detections
 
 def picks_summary_simple(data, thrd=0.1):
-    # exclude the first 5 seconds to avoid artifacts
+    # exclude the first 3 seconds to avoid artifacts
     data[:300] = 0.
 
     triggers = trigger_onset(data, thrd, thrd / 2)
