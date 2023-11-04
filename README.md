@@ -67,7 +67,7 @@ Please see the notebooks under the folder `tutorials` for more details.
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
 
 ## Citation 
-Yuan, C., Ni, Y., Lin, Y., Denolle, M., Ensemble Learning for Earthquake Detection and Phase Picking, 2023, in preparation.
+Yuan, C., Ni, Y., Lin, Y. and Denolle, M. (2023) Better Together: Ensemble Learning for Earthquake Detection and Phase Picking. IEEE Transactions on Geoscience and Remote Sensing. [10.1109/TGRS.2023.3320148](https://ieeexplore.ieee.org/abstract/document/10266366)
 <p align="right">(<a href="https://github.com/congcy/ELEP">back to top</a>)</p>
 
 ## Contact
